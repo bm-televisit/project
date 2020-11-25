@@ -18,8 +18,5 @@ jobs:
     steps:
     - run: |
         echo "Hello ${{ github.event.inputs.name }}!"
-        ping -c 4 yahoo.com
-        ping -c 4 google.com
-        ping -c 4 8.8.8.8
 
         
